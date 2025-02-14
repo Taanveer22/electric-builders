@@ -90,3 +90,55 @@
     border: 2px solid gray;
     border-radius: 5px;
 }
+
+/* collection css styles */
+.collection{
+    margin-bottom: 40px;
+}
+
+.collection-title{
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    /* border: 2px solid red; */
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 3px 3px 6px 6px rgba(42, 39, 39, 0.27);
+    border-radius: 10px;
+}
+
+.card-photo img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card-info{
+    margin-bottom: 10px;
+}
+
+.card-rating{
+    display: flex;
+    gap: 10px;
+}
+
+.icons{
+    color: orange;
+}
+
+.points span{
+    color:rgba(0, 0, 0, 0.527);
+    font-weight: bold;
+}
+
+.card-description p{
+    color: rgba(0, 0, 0, 0.527);
+}
