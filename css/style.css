@@ -8,6 +8,7 @@
 /* header css styles */
 .header-section{
     background-color: rgb(71, 85, 105);
+    margin-bottom: 40px;
 }
 
 .navbar{
@@ -45,6 +46,7 @@
 /* banner styles */
 .banner{
     background-color: rgb(242, 242, 242);
+    margin-bottom: 40px;
     border-radius: 10px;
     padding: 20px;
     display: flex;

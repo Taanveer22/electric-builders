@@ -5,6 +5,7 @@
         gap: 10px;
         align-items: center;
     }
+
 }
 
 /* navbar for small devices */
@@ -19,6 +20,18 @@
 
     .navbar{
         flex-direction: row;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-photo{
+        width: 100%;
+    }
+
+    .banner-text{
+        width: 100%;
     }
     
 }
