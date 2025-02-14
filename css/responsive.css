@@ -1,0 +1,24 @@
+/* navbar for medium devices */
+@media screen  and (max-width: 800px) {
+    .navbar{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
+/* navbar for small devices */
+@media screen and (max-width: 500px) {
+    .menu-container{
+        display: none;
+    }
+
+    .hamburger-container{
+        display: block;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+    
+}
