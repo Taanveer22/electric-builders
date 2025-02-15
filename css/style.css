@@ -109,14 +109,23 @@
 
 .card{
     /* border: 2px solid red; */
-    width: fit-content;
+    width: 300px;
     padding: 10px;
     box-shadow: 3px 3px 6px 6px rgba(42, 39, 39, 0.27);
     border-radius: 10px;
 }
 
+.card-photo{
+    /* border: 2px solid green; */
+    width: 280px;
+    height: 250px;
+    
+}
+
 .card-photo img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin-bottom: 10px;
     border-radius: 10px;
 }

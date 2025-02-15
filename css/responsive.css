@@ -1,37 +1,51 @@
 /* navbar for medium devices */
-@media screen  and (max-width: 800px) {
-    .navbar{
+@media screen  and (min-width:577px) and (max-width: 992px) {
+
+    .navbar {
         flex-direction: column;
         gap: 10px;
         align-items: center;
+        justify-content: center;
     }
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 
 }
 
 /* navbar for small devices */
-@media screen and (max-width: 500px) {
-    .menu-container{
+@media screen and (max-width: 576px) {
+
+    .menu-container {
         display: none;
     }
 
-    .hamburger-container{
+    .hamburger-container {
         display: block;
     }
 
-    .navbar{
+    .navbar {
         flex-direction: row;
+        /* align-items: center; */
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
     }
 
-    .banner-photo{
+    .banner-photo {
         width: 100%;
     }
 
-    .banner-text{
+    .banner-text {
         width: 100%;
     }
-    
+
+    .cards-container {
+       grid-template-columns: repeat(1, 1fr);
+
+    }
+
 }
