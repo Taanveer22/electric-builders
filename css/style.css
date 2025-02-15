@@ -1,17 +1,23 @@
 /* shared css styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.common-title {
+    font-size: xx-large;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* header css styles */
-.header-section{
+.header-section {
     background-color: rgb(71, 85, 105);
     margin-bottom: 40px;
 }
 
-.navbar{
+.navbar {
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -20,12 +26,12 @@
     padding: 20px;
 }
 
-.menu-container{
+.menu-container {
     display: flex;
     gap: 10px;
 }
 
-.menu-btn{
+.menu-btn {
     background-color: black;
     color: white;
     padding: 10px;
@@ -33,18 +39,18 @@
     border-radius: 5px;
 }
 
-.hamburger-container{
+.hamburger-container {
     display: none;
 }
 
 /* main section css styles */
-.main-section{
+.main-section {
     max-width: 1024px;
     margin: 0 auto;
 }
 
 /* banner styles */
-.banner{
+.banner {
     background-color: rgb(242, 242, 242);
     margin-bottom: 40px;
     border-radius: 10px;
@@ -54,17 +60,17 @@
     justify-content: space-between;
 }
 
-.banner-photo{
-    width:47%;
+.banner-photo {
+    width: 47%;
     position: relative;
 }
 
-.banner-photo img{
+.banner-photo img {
     width: 100%;
     border-radius: 10px;
 }
 
-.discount{
+.discount {
     background-color: rgba(0, 0, 0, 0.527);
     color: white;
     width: max-content;
@@ -75,16 +81,18 @@
     left: 35%;
 }
 
-.banner-text{
+.banner-text {
     width: 47%;
     text-align: center;
 }
 
-.banner-text h1, p, button{
+.banner-text h1,
+p,
+button {
     margin-top: 10px;
 }
 
-.banner-btn{
+.banner-btn {
     background-color: transparent;
     padding: 10px 20px;
     border: 2px solid gray;
@@ -92,22 +100,18 @@
 }
 
 /* collection css styles */
-.collection{
+.collection {
     margin-bottom: 40px;
 }
 
-.collection-title{
-    font-size: xx-large;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.cards-container{
+
+.cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.card{
+.card {
     /* border: 2px solid red; */
     width: 300px;
     padding: 10px;
@@ -115,14 +119,14 @@
     border-radius: 10px;
 }
 
-.card-photo{
+.card-photo {
     /* border: 2px solid green; */
     width: 280px;
     height: 250px;
-    
+
 }
 
-.card-photo img{
+.card-photo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -130,24 +134,64 @@
     border-radius: 10px;
 }
 
-.card-info{
+.card-info {
     margin-bottom: 10px;
 }
 
-.card-rating{
+.card-rating {
     display: flex;
     gap: 10px;
 }
 
-.icons{
+.icons {
     color: orange;
 }
 
-.points span{
-    color:rgba(0, 0, 0, 0.527);
+.points span {
+    color: rgba(0, 0, 0, 0.527);
     font-weight: bold;
 }
 
-.card-description p{
+.card-description p {
     color: rgba(0, 0, 0, 0.527);
+}
+
+
+/* newsletter section styles */
+.newsletter {
+    margin-bottom: 40px;
+}
+
+.nl-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nl-pic {
+    width: 47%;
+}
+
+.nl-pic img {
+    width: 100%;
+}
+
+.nl-form {
+    width: 47%;
+}
+
+#name,
+#email,
+#password,
+#profession,
+#textarea {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#submit{
+    background-color: palevioletred;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
 }

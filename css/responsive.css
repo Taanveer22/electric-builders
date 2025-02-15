@@ -12,6 +12,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .nl-container{
+        flex-direction: column;
+    }
+
 
 }
 
@@ -46,6 +50,18 @@
     .cards-container {
        grid-template-columns: repeat(1, 1fr);
 
+    }
+
+    .nl-container{
+        flex-direction: column;
+    }
+
+    .nl-pic{
+        width: 100%;
+    }
+
+    .nl-form{
+        width: 100%;
     }
 
 }
